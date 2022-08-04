@@ -1,0 +1,6 @@
+C:\Users\arfin\source\repos\LitwareLib\LitwareLib\bin\Debug\LitwareLib.dll
+C:\Users\arfin\source\repos\LitwareLib\LitwareLib\bin\Debug\LitwareLib.pdb
+C:\Users\arfin\source\repos\LitwareLib\LitwareLib\obj\Debug\LitwareLib.csproj.AssemblyReference.cache
+C:\Users\arfin\source\repos\LitwareLib\LitwareLib\obj\Debug\LitwareLib.csproj.CoreCompileInputs.cache
+C:\Users\arfin\source\repos\LitwareLib\LitwareLib\obj\Debug\LitwareLib.dll
+C:\Users\arfin\source\repos\LitwareLib\LitwareLib\obj\Debug\LitwareLib.pdb
