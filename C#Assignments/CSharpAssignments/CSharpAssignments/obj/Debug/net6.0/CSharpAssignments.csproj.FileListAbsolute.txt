@@ -1,0 +1,15 @@
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\bin\Debug\net6.0\CSharpAssignments.exe
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\bin\Debug\net6.0\CSharpAssignments.deps.json
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\bin\Debug\net6.0\CSharpAssignments.runtimeconfig.json
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\bin\Debug\net6.0\CSharpAssignments.dll
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\bin\Debug\net6.0\CSharpAssignments.pdb
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\CSharpAssignments.csproj.AssemblyReference.cache
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\CSharpAssignments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\CSharpAssignments.AssemblyInfoInputs.cache
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\CSharpAssignments.AssemblyInfo.cs
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\CSharpAssignments.csproj.CoreCompileInputs.cache
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\CSharpAssignments.dll
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\refint\CSharpAssignments.dll
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\CSharpAssignments.pdb
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\CSharpAssignments.genruntimeconfig.cache
+C:\Users\arfin\source\repos\CSharpAssignments\CSharpAssignments\obj\Debug\net6.0\ref\CSharpAssignments.dll
