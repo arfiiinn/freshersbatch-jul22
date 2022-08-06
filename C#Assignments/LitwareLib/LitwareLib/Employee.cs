@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Runtime.Serialization;
 
 namespace LitwareLib
 {
@@ -6,8 +8,8 @@ namespace LitwareLib
     {
          void DisplayEmployee();
     }
-
-    public class Employee : IPrintable
+    [Serializable()]
+    public class Employee
     {
         // Defining data members
         private int Empno;
@@ -164,7 +166,6 @@ namespace LitwareLib
 
     }
 
-    
     public class Manager : Employee
     {
         private double PetrolAllowance, FoodAllowance, OtherAllowances;

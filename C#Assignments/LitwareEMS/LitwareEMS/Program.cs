@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using LitwareLib;
 
 class Program
@@ -18,5 +20,17 @@ class Program
         Employee employee = new Employee();
         employee.GetEmployeeData(empid, empname, salary);
         employee.CalculateSalary();
+        // Serializing Employee object.
+        FileStream f = new FileStream(@"C:\Users\arfin\Desktop\FileIO\EmployeeDetails.txt", FileMode.Open, FileAccess.Write);
+        BinaryFormatter b = new BinaryFormatter();
+        b.Serialize(f, employee);
+        f.Close();
+
+        //Deserializing Employee object.
+        FileStream fr = new FileStream(@"C:\Users\arfin\Desktop\FileIO\EmployeeDetails.txt", FileMode.Open, FileAccess.Read);
+        BinaryFormatter br = new BinaryFormatter();
+        br.Deserialize(fr);
+        fr.Close();
+
     }
 }

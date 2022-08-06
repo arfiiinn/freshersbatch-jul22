@@ -1,7 +1,6 @@
 C:\Users\arfin\source\repos\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.exe
 C:\Users\arfin\source\repos\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.deps.json
 C:\Users\arfin\source\repos\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.runtimeconfig.json
-C:\Users\arfin\source\repos\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.dll
 C:\Users\arfin\source\repos\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.pdb
 C:\Users\arfin\source\repos\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.csproj.AssemblyReference.cache
 C:\Users\arfin\source\repos\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,3 +12,4 @@ C:\Users\arfin\source\repos\BankingApplication\BankingApplication\obj\Debug\net6
 C:\Users\arfin\source\repos\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.pdb
 C:\Users\arfin\source\repos\BankingApplication\BankingApplication\obj\Debug\net6.0\BankingApplication.genruntimeconfig.cache
 C:\Users\arfin\source\repos\BankingApplication\BankingApplication\obj\Debug\net6.0\ref\BankingApplication.dll
+C:\Users\arfin\source\repos\BankingApplication\BankingApplication\bin\Debug\net6.0\BankingApplication.dll
