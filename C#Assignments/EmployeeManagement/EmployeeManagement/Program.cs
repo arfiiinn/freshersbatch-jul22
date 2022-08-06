@@ -1,6 +1,7 @@
 ﻿using System;
 using LitwareLib;
 
+public delegate void EmployeeDelegate();
 class Test
 {
     public static void Main()
@@ -33,22 +34,30 @@ class Test
                 manager.ManagerGrossSalary();
                 manager.CalculateSalary();
                 manager.DisplayEmployee();
+                EmployeeDelegate mymanager = new EmployeeDelegate(manager.DisplayManager); // <---- 6.1 Unicast Delegate
+                mymanager.Invoke();
 
                 break;
             case 3:
                 MarketingExecutive me = new MarketingExecutive();
                 me.GetEmployeeData(EmpNo, EmpName, Salary);
-                Console.WriteLine("Enter Kilometer Travel allowed");
+                Console.Write("Enter Kilometer Travel allowed: ");
                 int km = Convert.ToInt32(Console.ReadLine());
                 double TA = 5 * km;
                 me.MEGrossSalary(TA);
                 me.CalculateSalary();
                 me.DisplayEmployee();
+                EmployeeDelegate mymarketingexecutive = new EmployeeDelegate(me.DispalyME);
+                mymarketingexecutive.Invoke();
                 break;
             default:
                 Console.WriteLine("Invalid choice");
                 break;
+
+            
         }
+
+        
         
 
     }

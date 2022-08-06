@@ -6,6 +6,7 @@ namespace LitwareLib
     {
          void DisplayEmployee();
     }
+
     public class Employee : IPrintable
     {
         // Defining data members
@@ -14,6 +15,21 @@ namespace LitwareLib
         private double Salary,HRA, TA, DA, PF, TDS, NetSalary, GrossSalary;
 
         //Accessing private members using properties
+        public int _Empno
+        {
+            get
+            {
+                return Empno;
+            }
+        }
+
+        public string _EmpName
+        {
+            get
+            {
+                return EmpName;
+            }
+        }
         public double _Salary
         {
             get
@@ -35,6 +51,10 @@ namespace LitwareLib
             {
                 return PF;
             }
+            set
+            {
+                PF = value;
+            }
         }
 
         public double _TDS
@@ -43,8 +63,20 @@ namespace LitwareLib
             {
                 return TDS;
             }
+            set { TDS = value; }
         }
 
+        public double _NetSalary
+        {
+            get
+            {
+                return NetSalary;
+            }
+            set
+            {
+                NetSalary = value;
+            }
+        }
         // Constructor initializes variables to zero.
         public Employee()
         {
@@ -54,11 +86,11 @@ namespace LitwareLib
 
         public void DisplayEmployee()
         {
-            Console.WriteLine("Using IPrintable to display Employee Details:");
+            //Console.WriteLine("Using IPrintable to display Employee Details:");
             Console.WriteLine($"ID: {Empno}\t Name: {EmpName} \tSalary: {Salary}");
             Console.WriteLine($"Allowances: \nHouse Rent Alowance:{HRA}, Travel Allowance: {TA}, Dearness Allowance: {DA}");
             Console.WriteLine($"GrossSalary: {GrossSalary}");
-            Console.WriteLine($"Provident Fund: {PF}, TDS: {TDS}");
+            //Console.WriteLine($"Provident Fund: {PF}, TDS: {TDS}");
             Console.WriteLine($"Net Salary: {NetSalary}");
         }
         // Getting information about Employee
@@ -132,12 +164,11 @@ namespace LitwareLib
 
     }
 
+    
     public class Manager : Employee
     {
         private double PetrolAllowance, FoodAllowance, OtherAllowances;
         public double newGrossSalary;
-
-        
         public void ManagerGrossSalary()
         {
             CalculateGrossSalary();
@@ -150,14 +181,19 @@ namespace LitwareLib
 
         public override void CalculateSalary()
         {
-            double newPF = _PF;
-            double newTDS = _TDS;
             double newNetSalary;
-            newPF = (10 * _GrossSalary) / 100;
-            newTDS = (18 * newGrossSalary) / 100;
+            double newPF = (10 * _GrossSalary) / 100;
+            double newTDS = (18 * newGrossSalary) / 100;
             newNetSalary = newGrossSalary - (newPF + newTDS);
-            // Console.WriteLine($"\nPF: {PF} \t TDS: {TDS}");
+            _PF = newPF; _TDS = newTDS; _NetSalary = newNetSalary;
             Console.WriteLine($"\nNet Salary: {newNetSalary}");
+        }
+
+        public void DisplayManager()
+        {
+            Console.WriteLine($"\nPF: {_PF} \t TDS: {_TDS}");
+            Console.WriteLine("Allowances: ");
+            Console.WriteLine($"PetrolAllowance: {PetrolAllowance}\t FoodAllowance: {FoodAllowance} \t Other: {OtherAllowances}");
         }
     }
 
@@ -172,6 +208,10 @@ namespace LitwareLib
             {
                 return TourAllowance;
             }
+            set
+            {
+                TourAllowance = value;
+            }
         }
        
         
@@ -180,6 +220,7 @@ namespace LitwareLib
 
         public void MEGrossSalary(double TourAllowance)
         {
+            _TA = TourAllowance;
             CalculateGrossSalary();
             double newGrossSalary = TourAllowance + TelephoneAllowance + _GrossSalary;
             Console.WriteLine($"\nGross Salary of Marketing Executive: {newGrossSalary}");
@@ -187,14 +228,18 @@ namespace LitwareLib
 
         public override void CalculateSalary()
         {
-            double newPF = _PF;
-            double newTDS = _TDS;
             double newNetSalary;
-            newPF = (10 * _GrossSalary) / 100;
-            newTDS = (18 * newGrossSalary) / 100;
+            double newPF = (10 * _GrossSalary)/ 100;
+            double newTDS = (18 * newGrossSalary)/ 100;
             newNetSalary = newGrossSalary - (newPF + newTDS);
-            // Console.WriteLine($"\nPF: {PF} \t TDS: {TDS}");
+            _PF = newPF; _TDS = newTDS; _NetSalary = newNetSalary;
             Console.WriteLine($"\nNet Salary: {newNetSalary}");
+        }
+
+        public void DispalyME()
+        {
+            Console.WriteLine("Allowances for Marketing Executive: ");
+            Console.WriteLine($"Tour Allowance: {_TA}\t Telephone Allowance: {TelephoneAllowance}");
         }
     }
 
