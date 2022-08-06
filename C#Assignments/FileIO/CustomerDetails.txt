@@ -1,0 +1,3 @@
+Account number: 555555
+Name of Customer: Arfin Sayyed
+New Customer, Balance = 0
