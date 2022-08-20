@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDBF", "FootballDBF\FootballDBF.csproj", "{32910A77-1104-4F1F-ACC5-12EF3717AF0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32910A77-1104-4F1F-ACC5-12EF3717AF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32910A77-1104-4F1F-ACC5-12EF3717AF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32910A77-1104-4F1F-ACC5-12EF3717AF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32910A77-1104-4F1F-ACC5-12EF3717AF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3FB5AC1-E664-47F3-8ACE-79F0B8037DF0}
+	EndGlobalSection
+EndGlobal
