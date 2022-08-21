@@ -1,0 +1,47 @@
+﻿@model IEnumerable<BusInfoAssignment.Models.BusInfo>
+
+@{
+    ViewBag.Title = "PKR Travels";
+}
+
+<h2>Bus Information Database</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BoardingPoint)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TravelDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BoardingPoint)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TravelDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rating)
+        </td>
+    </tr>
+}
+
+</table>
+
+<p>
+    @ViewBag.Message 
+</p>

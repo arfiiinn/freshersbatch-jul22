@@ -1,0 +1,31 @@
+﻿@model IEnumerable<BusInfoAssignment.Models.BusInfo>
+
+@{
+    ViewBag.Title = "AmountGreaterthan450";
+}
+
+<h2><b>Displaying Boarding Point and Travel Date for Amount Greater than 450</b></h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BoardingPoint)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TravelDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BoardingPoint)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TravelDate)
+        </td>
+    </tr>
+}
+
+</table>

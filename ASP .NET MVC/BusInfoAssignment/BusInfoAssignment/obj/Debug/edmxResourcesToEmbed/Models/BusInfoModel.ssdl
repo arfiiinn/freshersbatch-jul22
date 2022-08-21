@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PKRTravelsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BusInfo">
+    <Key>
+      <PropertyRef Name="BusID" />
+    </Key>
+    <Property Name="BusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BoardingPoint" Type="varchar" MaxLength="3" />
+    <Property Name="TravelDate" Type="date" />
+    <Property Name="Amount" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="Rating" Type="int" />
+  </EntityType>
+  <Function Name="AddBusDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BoardingPoint" Type="varchar" Mode="In" />
+    <Parameter Name="TravelDate" Type="date" Mode="In" />
+    <Parameter Name="Amount" Type="decimal" Mode="In" />
+    <Parameter Name="Rating" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AmountGreaterThan450" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="RatingGreaterThan3" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="PKRTravelsModelStoreContainer">
+    <EntitySet Name="BusInfo" EntityType="Self.BusInfo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

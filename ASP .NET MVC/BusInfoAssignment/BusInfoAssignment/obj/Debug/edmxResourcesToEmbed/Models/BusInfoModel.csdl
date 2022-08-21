@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PKRTravelsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BusInfo">
+    <Key>
+      <PropertyRef Name="BusID" />
+    </Key>
+    <Property Name="BusID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BoardingPoint" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="TravelDate" Type="DateTime" Precision="0" />
+    <Property Name="Amount" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="Rating" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="PKRTravelsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BusInfoes" EntityType="Self.BusInfo" />
+    <FunctionImport Name="AddBusDetails">
+      <Parameter Name="BoardingPoint" Mode="In" Type="String" />
+      <Parameter Name="TravelDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Amount" Mode="In" Type="Decimal" />
+      <Parameter Name="Rating" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AmountGreaterThan450" ReturnType="Collection(PKRTravelsModel.AmountGreaterThan450_Result)" />
+    <FunctionImport Name="RatingGreaterThan3" ReturnType="Collection(PKRTravelsModel.RatingGreaterThan3_Result)" />
+  </EntityContainer>
+  <ComplexType Name="AmountGreaterThan450_Result">
+    <Property Type="String" Name="BoardingPoint" Nullable="true" MaxLength="3" />
+    <Property Type="DateTime" Name="TravelDate" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="RatingGreaterThan3_Result">
+    <Property Type="Int32" Name="BusId" Nullable="false" />
+    <Property Type="String" Name="BoardingPoint" Nullable="true" MaxLength="3" />
+  </ComplexType>
+</Schema>

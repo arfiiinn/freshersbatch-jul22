@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<div>
+    <hr /> 
+    <h4>
+        <b>
+            @Html.ActionLink("Add Bus Information", "Create")
+        </b>
+    </h4>
+</div>
+<div style="font-family:Arial, Helvetica, sans-serif; color:red;">
+    <p>
+        @ViewBag.ErrorMessage
+    </p>
+</div>

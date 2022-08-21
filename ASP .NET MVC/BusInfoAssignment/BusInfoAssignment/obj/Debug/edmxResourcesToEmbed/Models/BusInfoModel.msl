@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PKRTravelsModelStoreContainer" CdmEntityContainer="PKRTravelsEntities">
+    <EntitySetMapping Name="BusInfoes">
+      <EntityTypeMapping TypeName="PKRTravelsModel.BusInfo">
+        <MappingFragment StoreEntitySet="BusInfo">
+          <ScalarProperty Name="BusID" ColumnName="BusID" />
+          <ScalarProperty Name="BoardingPoint" ColumnName="BoardingPoint" />
+          <ScalarProperty Name="TravelDate" ColumnName="TravelDate" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AddBusDetails" FunctionName="PKRTravelsModel.Store.AddBusDetails" />
+    <FunctionImportMapping FunctionImportName="AmountGreaterThan450" FunctionName="PKRTravelsModel.Store.AmountGreaterThan450">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PKRTravelsModel.AmountGreaterThan450_Result">
+          <ScalarProperty Name="BoardingPoint" ColumnName="BoardingPoint" />
+          <ScalarProperty Name="TravelDate" ColumnName="TravelDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="RatingGreaterThan3" FunctionName="PKRTravelsModel.Store.RatingGreaterThan3">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PKRTravelsModel.RatingGreaterThan3_Result">
+          <ScalarProperty Name="BusId" ColumnName="BusId" />
+          <ScalarProperty Name="BoardingPoint" ColumnName="BoardingPoint" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
