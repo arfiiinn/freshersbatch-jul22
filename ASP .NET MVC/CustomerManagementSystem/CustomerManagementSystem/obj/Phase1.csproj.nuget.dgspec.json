@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerManagementSystem\\Phase1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerBusinessLayer\\CustomerBusinessLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerBusinessLayer\\CustomerBusinessLayer.csproj",
+        "projectName": "CustomerBusinessLayer",
+        "projectPath": "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerBusinessLayer\\CustomerBusinessLayer.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerDataAccessLayer\\CustomerDataAccessLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerDataAccessLayer\\CustomerDataAccessLayer.csproj",
+        "projectName": "CustomerDataAccessLayer",
+        "projectPath": "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerDataAccessLayer\\CustomerDataAccessLayer.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerManagementSystem\\Phase1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerManagementSystem\\Phase1.csproj",
+        "projectName": "Phase1",
+        "projectPath": "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerManagementSystem\\Phase1.csproj",
+        "packagesPath": "C:\\Users\\arfin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerManagementSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\arfin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerBusinessLayer\\CustomerBusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerBusinessLayer\\CustomerBusinessLayer.csproj"
+              },
+              "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerDataAccessLayer\\CustomerDataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\arfin\\Desktop\\Assignments\\ASP .NET MVC\\CustomerManagementSystem\\CustomerDataAccessLayer\\CustomerDataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

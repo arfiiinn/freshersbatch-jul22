@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>Phase1.Phase1</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerBusinessLayer\CustomerBusinessLayer.csproj" />
+    <ProjectReference Include="..\CustomerDataAccessLayer\CustomerDataAccessLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CustomerBusinessLayer">
+      <HintPath>..\CustomerBusinessLayer\bin\Debug\CustomerBusinessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomerDataAccessLayer">
+      <HintPath>..\CustomerDataAccessLayer\bin\Debug\CustomerDataAccessLayer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

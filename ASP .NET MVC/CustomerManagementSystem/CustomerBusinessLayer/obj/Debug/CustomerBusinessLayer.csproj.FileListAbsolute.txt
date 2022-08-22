@@ -1,0 +1,12 @@
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\bin\Debug\CustomerBusinessLayer.dll.config
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\bin\Debug\CustomerBusinessLayer.dll
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\bin\Debug\CustomerBusinessLayer.pdb
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\obj\Debug\CustomerBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\obj\Debug\CustomerBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\obj\Debug\CustomerBusinessLayer.csproj.CopyComplete
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\obj\Debug\CustomerBusinessLayer.dll
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerBusinessLayer\obj\Debug\CustomerBusinessLayer.pdb
