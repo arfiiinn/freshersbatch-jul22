@@ -10,7 +10,7 @@ namespace Phase1
         {
             using (CustomerDbContext context = new CustomerDbContext())
             {
-                Console.WriteLine("Customer Management System");
+               /* Console.WriteLine("Customer Management System");
                 Console.WriteLine("Add Customer Details");
                 Console.WriteLine("Add Customer Name:");
                 string? CustomerName = Console.ReadLine();
@@ -31,10 +31,29 @@ namespace Phase1
                     Phone = Phone,
                     Pincode = Pincode
                 };
+                var customer1 = new Customer
+                {
+                    CustomerName = "Customer",
+                    City = "City",
+                    Age = 21,
+                    Phone = 9898989891,
+                    Pincode = 222222
+                };
+                var customer2 = new Customer
+                {
+                    CustomerName = "Customer",
+                    City = "City",
+                    Age = 21,
+                    Phone = 9898989891,
+                    Pincode = 222222
+                };
 
                 context.Customers.Add(customer);
+                context.Customers.Add(customer1);
+                context.Customers.Add(customer2);
 
-                    context.SaveChanges();
+
+                    context.SaveChanges(); */
 
                     Console.WriteLine("Retrieving Customers from Database");
                     foreach (Customer acustomer in context.Customers)

@@ -1,4 +1,7 @@
 C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.Migrations.InitialCreate.resources
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.Migrations.MCustomerMigration.resources
+C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.csproj.GenerateResource.cache
 C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\bin\Debug\CustomerDataAccessLayer.dll.config
 C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\bin\Debug\CustomerDataAccessLayer.dll
@@ -13,6 +16,3 @@ C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\Custome
 C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.csproj.CopyComplete
 C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.dll
 C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.pdb
-C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.Migrations.InitialCreate.resources
-C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.csproj.GenerateResource.cache
-C:\Users\arfin\Desktop\Assignments\ASP .NET MVC\CustomerManagementSystem\CustomerDataAccessLayer\obj\Debug\CustomerDataAccessLayer.Migrations.MCustomerMigration.resources
