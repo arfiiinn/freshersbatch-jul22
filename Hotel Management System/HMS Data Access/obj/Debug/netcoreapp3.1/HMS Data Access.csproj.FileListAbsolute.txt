@@ -1,0 +1,13 @@
+D:\training\Hotel Management System\HMS Data Access\bin\Debug\netcoreapp3.1\HMS Data Access.deps.json
+D:\training\Hotel Management System\HMS Data Access\bin\Debug\netcoreapp3.1\HMS Data Access.runtimeconfig.json
+D:\training\Hotel Management System\HMS Data Access\bin\Debug\netcoreapp3.1\HMS Data Access.runtimeconfig.dev.json
+D:\training\Hotel Management System\HMS Data Access\bin\Debug\netcoreapp3.1\HMS Data Access.dll
+D:\training\Hotel Management System\HMS Data Access\bin\Debug\netcoreapp3.1\HMS Data Access.pdb
+D:\training\Hotel Management System\HMS Data Access\obj\Debug\netcoreapp3.1\HMS Data Access.csproj.AssemblyReference.cache
+D:\training\Hotel Management System\HMS Data Access\obj\Debug\netcoreapp3.1\HMS Data Access.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\Hotel Management System\HMS Data Access\obj\Debug\netcoreapp3.1\HMS Data Access.AssemblyInfoInputs.cache
+D:\training\Hotel Management System\HMS Data Access\obj\Debug\netcoreapp3.1\HMS Data Access.AssemblyInfo.cs
+D:\training\Hotel Management System\HMS Data Access\obj\Debug\netcoreapp3.1\HMS Data Access.csproj.CoreCompileInputs.cache
+D:\training\Hotel Management System\HMS Data Access\obj\Debug\netcoreapp3.1\HMS Data Access.dll
+D:\training\Hotel Management System\HMS Data Access\obj\Debug\netcoreapp3.1\HMS Data Access.pdb
+D:\training\Hotel Management System\HMS Data Access\obj\Debug\netcoreapp3.1\HMS Data Access.genruntimeconfig.cache
