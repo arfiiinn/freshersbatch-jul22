@@ -1,0 +1,23 @@
+.form-body{
+    background-color: #ff4c68;
+    color:#ffffff;
+}
+#label-heading{
+    font-family: "Montserrat";
+    font-weight: 900;
+    text-align:center;
+}
+#submit-button{
+    margin-top:5%;
+    margin-left:35%;
+
+  }
+
+#contact-form{
+    padding: 5% 38%;
+}
+
+label{
+    font-family: "Montserrat";
+    font-weight: 900;
+}

@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    /*background: #210e35;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to bottom, #210e35,#2F0743,#2d0741 ,#310746 , #3a0953);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to bottom, #210e35,#2F0743,#2d0741 ,#310746 , #3a0953); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #210e35,#2F0743,#2d0741 ,#310746 , #3a0953);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #210e35,#35094e,#3e0c58 ,#4e0c6e , #510c74);
+}
+h1{ 
+    font-family: 'Sacramento', cursive;
+    margin:50px auto 0 auto;
+    font-size: 90px;
+    color: #e6e6e6;
+    line-height: 2;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    /* color:#8c60af */
+    color:	#E6E6FA;
+}
+p{
+    color:	#E6E6FA;
+}
+h3{
+    margin-top: 0;
+    font-family: 'Quicksand', sans-serif;
+    /* color:#8b59b4    */
+    color:#D8BFD8;
+   
+}
+hr{
+    border-style: none;
+    border-color: #c3bef0;
+    border-top-style: dotted ;
+    border-width: 5px;
+    width:5% ;
+    margin-bottom:7%;
+}
+.top{
+    /* background-color:#defcf9; */
+    position: relative;
+    padding-top: 100px;
+}
+ .top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;  
+ }
+ .col{
+    color: #e8e8e8;
+    font-weight: normal;
+ }
+ .bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+ }
+ .skills ,.profile{
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+ }
+ .skill-row{
+    margin:50px auto 100px 0;
+    line-height: 2;
+ }
+ .skill1{
+    float:left;
+    margin-bottom:5%;
+    padding-left:25%;
+ }
+ .icon1{
+    height:200px;
+     width:200px;
+     margin-right: 50px;
+ }
+ .pskill1{
+    text-align:justify;
+    padding-top:5%;
+    padding-right: 25%;
+ }
+ .skill2{
+    float:right;
+    margin-bottom:5%;
+    padding-right: 25%;
+ }
+ .icon2{
+    padding-left:10%;
+    margin-left: 50px;
+ }
+ .pskill2{
+    text-align:justify;
+    padding-top:5%;
+    padding-left:30%; 
+    margin-left: 15%;
+    /* padding-left: 10% */
+ }
+ .logo{
+    font-family: 'Sacramento', cursive;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+ }
+
+ .footer-link{
+    text-decoration: none;
+ }
+ .cp{
+    margin-bottom:0; 
+ }
+ /* Bootstrap */
+ .col-md-6 , .col-sm-12{
+    padding-left: 10%;
+ }

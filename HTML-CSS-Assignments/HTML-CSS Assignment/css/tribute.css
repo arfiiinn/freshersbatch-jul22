@@ -1,0 +1,53 @@
+body {
+    background-color: #bcb0a3;
+    margin: 20%;
+    margin-top:2%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    text-align: center;
+    font-size: 7vh;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+img {
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 1%;
+    display: inline-block;
+    width: 40%;
+}
+
+#caption {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-align: center;
+}
+
+/* Styling the content of the page like-
+padding, font-size, font color etc.*/
+div#tribute-data {
+    background-color: rgb(119, 82, 82);
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+    color: white;
+    font-weight: 400;
+}
+
+/* Styling the title of the content */
+h1.title-APJ {
+    font-size: 35px;
+    color: white;
+    text-align: center;}
+
+/* Styling the link provided at the end */
+#tribute-link {
+    text-decoration: none;
+    color: black;
+}

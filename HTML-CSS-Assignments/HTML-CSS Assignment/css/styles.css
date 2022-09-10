@@ -1,0 +1,162 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+body{
+    font-family:'Montserrat';
+}
+h1{
+    font-family:'Montserrat';
+    font-size: 3.5rem;
+    line-height:1.5 ;
+    font-weight: 900;
+}
+h2{
+    font-family:'Montserrat';
+    font-weight:bold;
+    font-size:3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    /* padding:3% 15% 7%; */
+    padding-top: 1%;
+}
+
+/* Navigation bar */
+.navbar{
+    padding: 0 0 4.5rem;
+    padding-bottom: 2%;
+}
+a.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem ;
+    font-weight: bold; 
+    margin-right:55%;
+    padding-left: 5%;
+}
+.nav-item{
+    padding: 0 2%;
+}
+.nav-link{
+    font-family:'Montserrat' ;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+/* HOME SECTION STARTS */
+.row{
+    padding-top: 5%;
+}
+#text{
+    padding-left:14%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.button-class{
+    margin-left:14%;
+    justify-content: center;
+}
+.db.btn{
+    margin:5% 3% 5% 0;
+    
+}
+
+.img{
+    position:relative; 
+    left:30%;
+    padding-top: 5%;
+    margin-bottom: 0;
+}
+
+/* FEATURES */
+
+#features{
+    background-color: white;
+    padding:7%;
+    position: relative;
+   }
+.feature-box{
+    text-align: center;
+    padding: 2%;
+}
+.f1{
+    font-family:'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:black;
+    /* text-align: center; */
+    padding-right:12%;
+    margin-left:10%;
+}
+.f2{
+    color:#8f8f8f;
+}
+.logo{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.logo:hover{
+    color:#ff4c68;
+}
+
+/* TESTIMONIALS */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* CTA */
+#cta{
+    background-color: #ffffff;
+    padding-top: 8%;
+    text-align: center;
+}
+.cta-heading{
+    font-family:'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    color:#000000;
+    padding-left: 17%;
+    padding-right: 17%;
+
+}
+#db1{
+ margin: 2% 1%;
+}
+#pet-wave{
+   margin-top:2%;
+   margin-bottom:1%;
+}
+
+/* FOOTER */
+#footer{
+    background-color: #000000;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color:#ffffff;
+    text-align: center;
+
+}
+
+.ficons{
+    text-align: center;
+}
+.ic{
+    padding:15px 10px;
+}
+.fa{
+    color:white;
+}
+.button.btn{
+    justify-content: center;
+    margin-left:45%;
+}
